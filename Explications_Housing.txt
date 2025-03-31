@@ -1,0 +1,83 @@
+Variables entières / continues : 
+
+Id = identifiant de la maison (inutile pour le modèle)
+MSSubClass = type de logement (est en réalité une variable catégorielle)
+LotArea = superficie du terrain en m²
+OverallQual = Note sur 10 sur le matériel et la finition de la maison (variable catégorielle)
+OverallCond = Note sur 10 sur la condition générale de la maison (variable catégorielle)
+YearBuilt = Année de construction de la maison
+YearRemodAdd = Année de refonte (ajouter une variable booléenne travaux ou pas si année de refonte = année de construction)
+BsmtFinSF1 = surface de la cave de type 1
+BsmtFinSF2 = surface de la cave de type 2 (si il y a plusieurs types de caves)
+BsmtUnfSF = surface non-terminée de la cave
+TotalBsmtSF = surface totale de la cave (fini et non-fini)
+1stFlrSF = surface du rez-de-chaussée
+2ndFlrSF = surface du 1er étage
+LowQualFinSF = surface de basse qualité
+GrLivArea = surface vivable hors-sol
+BsmtFullBath = nombre de salles de bain dans la cave
+BsmtHalfBath = nombre de demi-salles de bain dans la cave
+FullBath = nombre de salles de bain hors cave
+HalfBath = nombre de demi-salles de bain hors cave
+BedroomAbvGr = nombre de chambres hors cave
+KitchenAbvGr = nombre de cuisines hors cave
+TotRmsAbvGr = nombre de pièces hors cave (n'inclut pas les salles de bain)
+Fireplaces = nombre de cheminées
+GarageCars = capacité du garage en nombre de voitures
+GarageArea = superficie du garage
+WoodDeckSF = superficie de la terrasse
+OpenPorchSF =  superficie de l'entrée de la maison
+EnclosedPorch = superficie de la véranda
+3SsnPorch = superficie du solarium 
+ScreenPorch = superficie de la screen porch (véranda avec moustiquaires)
+PoolArea = surface de la piscine
+MiscVal = valeur de la surface diverse (ascenceur ou 2e garage ou court de tennis ou autre)
+MoSold = mois de vente
+YrSold = année de vente
+SalePrice = prix de vente
+
+Variables catégorielles : 
+
+MSZoning = Classification de la vente (agriculture, commerciale, industrielle ou résidentielle) (majoritairement résidentielle)
+Street = type de route donnant accès à la priorité (gravier ou pavé) (très majoritairement pavé)
+Alley = type d'allée donnant accès à la priorité (gravier, pavé ou pas d'allée)
+LotShape = Forme générale de la propriété (régulière, plus ou moins irrégulière)
+LandContour = Platitude de la propriété (plat, en hauteur par rapport à la rue, sur une colline, en contre-bas) (majoritairement à plat)
+Utilities = Type d'utilitaires disponible (électricité, gaz, eau)
+LotConfig = Configuration du logement (en coin, en cul-de-sac, dans une rue…)
+LandSlope = pente de la propriété (légère, modérée ou importante)
+Neighborhood = quartier
+Condition1 = proximité avec certaines conditions (adjacent ou dans certaines rues)
+Condition2 = si plus d'une condition
+BldgType = type de logement (famille seule, duplex, maison de campagne, 2 familles)
+HouseStyle = style du logement
+RoofStyle = type de toit (plat ou autres)
+RoofMatl = matériau du toit
+Exterior1st = couverture extérieure de la maison
+Exterior2nd = si il y en a une deuxième
+MasVnrType = type de placage de maçonnerie
+ExterQual = qualité du matériel extérieur (Excellent, Bon, Moyen, Passable ou Faible)
+ExterCond = condition du matériel extérieur (même échelle)
+Foundation = type de fondation
+BsmtQual = évalue la hauteur de la cave (Excellent à Faible, NaN = pas de cave)
+BsmtCond = évalue la condition générale de la cave (Excellent à Faible, NaN = pas de cave)
+BsmtExposure = évalue l'exposition de la cave (Bon à Pas d'exposition, NaN = Pas de cave)
+BsmtFinType1 = évalue la finition de la cave (Bon à Non-fini, NaN = pas de cave)
+BsmtFinType2 = si il y a un deuxième type de cave
+Heating = type de chauffage
+HeatingQC = évalue la qualité du chauffage
+CentralAir = y a t-il la clim ?
+Electrical = système électrique
+KitchenQual = évalue la qualité de la cuisine
+Functional = fonctionnalité de la maison (est-ce qu'il y a quelques dégâts)
+FireplaceQu = qualité des cheminées (NaN = Pas de cheminées)
+GarageType = type de garage (NaN = pas de garage)
+GarageFinish = finition intérieure du garage (fini, partiellement ou pas fini, NaN = pas de garage)
+GarageQual = évalue la qualité du garage (NaN = pas de garage)
+GarageCond = évalue la condition du garage (NaN = pas de garage)
+PavedDrive = type de chemin pour ranger la voiture (pavé, partiellement pavé ou terre/graviers)
+PoolQC = évalue la qualité de la piscine (NaN = pas de piscine)
+Fence = évalue la qualité de la clôture (NaN = pas de clôture)
+MiscFeature = feature divers dans la maison (ascenseur, deuxième garage, court de tennis, hangar, NaN = rien de tout ça)
+SaleType = type de vente
+SaleCondition = condition de la vente
